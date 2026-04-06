@@ -282,3 +282,98 @@ nav a:hover::after { width: 100%; }
     font-size: 16px;
     color: #ccc;
 }
+/* ---------------------------- */
+/* 📱 TABLET RESPONSIVE */
+/* ---------------------------- */
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 0 10px;
+        display: inline-block;
+    }
+
+    /* TOP BAR FIX */
+    .top-bar {
+        font-size: 12px;
+        padding: 10px 5px;
+        line-height: 1.5;
+    }
+
+    /* HERO */
+    .hero-new {
+        flex-direction: column;
+        padding: 50px 5%;
+        text-align: center;
+    }
+
+    .hero-left h1 {
+        font-size: 32px;
+    }
+
+    .hero-left p {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .btn.secondary {
+        margin-left: 0;
+    }
+
+    .hero-right img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* CONTACT BOX */
+    .contact-pro {
+        margin: 20px;
+        padding: 40px 5%;
+    }
+
+    /* CONTACT INFO */
+    .contact-info {
+        padding: 40px 5%;
+    }
+}
+
+/* ---------------------------- */
+/* 📱 MOBILE SMALL (PHONE) */
+/* ---------------------------- */
+@media (max-width: 480px) {
+
+    .hero-left h1 {
+        font-size: 26px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+
+    .grid img {
+        height: 200px;
+    }
+
+    .top-bar {
+        font-size: 11px;
+    }
+
+    .logo {
+        height: 40px;
+    }
+}
